@@ -1,0 +1,16 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+authors = ["z0ff"]
+edition = "2018"
+description = "A simple project with wasm-pack"
+licence = "MIT/Apache-2.0"
+repository = "https://github.com/z0ff/hello-wasm"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
