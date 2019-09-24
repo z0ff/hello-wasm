@@ -3,7 +3,7 @@
     "serve": "webpack-dev-server"
   },
   "dependencies": {
-    "@z0ff/hello-wasm": "^0.1.0"
+    "@z0ff/hello-wasm": "^0.2.0"
   },
   "devDependencies": {
     "webpack": "^4.25.1",
